@@ -1,18 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
-import Carousel from "./components/Carousel";
-import ProducList from "./components/ProductList";
-import Promotion from "./components/Promotion";
+
+import Glasses from "./glasses/Glasses";
+
 function App() {
   return (
     <div>
-      <div>
-          <Header />
-          <Carousel/>
-          <ProducList/>
-          <Promotion/>
-      </div>
+      <Glasses/>
     </div>
   );
 }
